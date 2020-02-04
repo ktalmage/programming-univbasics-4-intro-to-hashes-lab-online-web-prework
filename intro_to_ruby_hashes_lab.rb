@@ -34,7 +34,7 @@ def update_counting_hash(hash, key)
 puts hash
 end
 
-hash = {:apples => 3}
+hash = {:apples => value}
 key = "oranges"
 
 puts update_counting_hash(hash,key)
