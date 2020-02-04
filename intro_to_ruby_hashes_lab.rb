@@ -26,7 +26,7 @@ end
   
 def update_counting_hash(hash, key)
   
-    if hash.fetch(key)
+    if hash[key]
       hash[key] +=1
     else
       hash[key] = 1
@@ -37,3 +37,4 @@ hash = {:apples => 3}
 key = :oranges
 
 puts update_counting_hash(hash,key)
+puts hash
