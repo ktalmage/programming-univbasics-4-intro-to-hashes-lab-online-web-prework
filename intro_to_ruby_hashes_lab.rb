@@ -36,7 +36,7 @@ end
 hash = {:apples => 3}
 key = "oranges"
 hash.each do |fruit,amount|
-  puts "#{fruit}: #{grade}"
+  puts "#{fruit}: #{amount}"
 end
 
 puts update_counting_hash(hash,key)
