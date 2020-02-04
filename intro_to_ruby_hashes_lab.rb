@@ -35,6 +35,6 @@ puts hash
 end
 
 hash = {:apples => 3}
-key = "oranges"
+key = ":oranges"
 
 puts update_counting_hash(hash,key)
